@@ -7,5 +7,5 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Send SMS in a Laravel Application
 Send SMS with in a Laravel Application using https://bulksmsnigeria.net/sms-gateway-api
