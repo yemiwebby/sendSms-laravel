@@ -8,4 +8,35 @@
 </p>
 
 ## Send SMS in a Laravel Application
-Send SMS with in a Laravel Application using https://bulksmsnigeria.net/sms-gateway-api
+Send SMS within a Laravel Application using https://bulksmsnigeria.net/sms-gateway-api
+
+### Getting Started
+Clone this repository
+
+```bash
+git clone https://github.com/yemiwebby/sendSms-laravel.git
+```
+
+### Change Directory
+```bash
+cd sendSms-laravel
+
+```
+
+### install dependencies
+```bash
+composer install 
+
+```
+
+Don't forget to set up your database credentials
+
+```bash
+
+php artisan migrate
+```
+### Run Application
+```bash
+php artisan serve
+
+```
