@@ -30,6 +30,24 @@ composer install
 ```
 
 Don't forget to set up your database credentials
+### Database Set up
+
+Create a `.env` file and copy the content of `.env.example` content into it.
+
+Then fill in your credentials
+
+```bash
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=Your-database-name
+DB_USERNAME=Your-database-username
+DB_PASSWORD=Your-database-password
+
+```
+
+
 
 ```bash
 
