@@ -29,12 +29,20 @@ composer install
 
 ```
 
-Don't forget to set up your database credentials
+##### Copy .env.example to .env
+
+```bash
+cp .env.example .env
+```
+
+##### Generate Application secure key (in .env file)
+```bash
+php artisan key:generate
+```
+
+
 ### Database Set up
-
-Create a `.env` file and copy the content of `.env.example` content into it.
-
-Then fill in your credentials
+Create a database and update .env file with database credentials
 
 ```bash
 
@@ -48,7 +56,7 @@ DB_PASSWORD=Your-database-password
 ```
 
 
-
+### Run your migrations
 ```bash
 
 php artisan migrate
