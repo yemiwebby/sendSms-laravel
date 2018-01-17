@@ -8,7 +8,7 @@
 </p>
 
 ## Send SMS in a Laravel Application
-Send SMS within a Laravel Application using https://bulksmsnigeria.net/sms-gateway-api
+Send SMS within a Laravel Application. (Check [Here](https://medium.com/techtrument/send-sms-from-laravel-application-d3ac9d1a4fac) for the complete tutorial)
 
 ### Getting Started
 Clone this repository
