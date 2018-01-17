@@ -20,6 +20,10 @@ class SmsController extends Controller
     {
         $phone_number = $request->input('phone_number');
 
+        if(!$phone_number)  {
+            return redirect()->back()->with('message', 'Field cannot be empty');
+        }
+
         $message = "A message has been sent to you";
 
         $this->initiateSmsActivation($phone_number, $message);
