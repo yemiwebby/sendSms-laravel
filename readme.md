@@ -1,8 +1,5 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-
-</p>
 
 ## Send SMS in a Laravel Application
 Send SMS within a Laravel Application. (Check [Here](https://medium.com/techtrument/send-sms-from-laravel-application-d3ac9d1a4fac) for the complete tutorial)
@@ -53,7 +50,7 @@ DB_PASSWORD=Your-database-password
 ```
 
 
-### Run your migrations
+### Run migrations
 ```bash
 
 php artisan migrate
