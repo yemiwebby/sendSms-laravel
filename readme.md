@@ -14,7 +14,7 @@ cd sendSms-laravel
 
 ```
 
-### install dependencies
+### install all dependencies
 ```bash
 composer install 
 
