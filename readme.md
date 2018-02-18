@@ -32,7 +32,7 @@ php artisan key:generate
 ```
 
 
-### Database Set up
+### Database Connection Setup
 Create a database and update .env file with database credentials
 
 ```bash
@@ -46,13 +46,13 @@ DB_PASSWORD=Your-database-password
 
 ```
 
-
 ### Run migrations
 ```bash
 
 php artisan migrate
+
 ```
-### Run Application
+### Serve the Application
 ```bash
 php artisan serve
 
